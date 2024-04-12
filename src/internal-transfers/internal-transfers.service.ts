@@ -3,13 +3,13 @@ import { CreateInternalTransferDto } from './dto/create-internal-transfer.dto';
 import { UpdateInternalTransferDto } from './dto/update-internal-transfer.dto';
 
 @Injectable()
-export class InternalTransferService {
+export class InternalTransfersService {
   create(createInternalTransferDto: CreateInternalTransferDto) {
     return 'This action adds a new internalTransfer';
   }
 
   findAll() {
-    return `This action returns all internalTransfer`;
+    return `This action returns all internalTransfers`;
   }
 
   findOne(id: number) {
